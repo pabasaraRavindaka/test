@@ -28,4 +28,4 @@ jobs:
         cache: 'npm'
         cache-dependency-path: "./backend/yarn.lock"
     - run: npm run build --if-present
-      working-directory: ./main
+      working-directory: ./backend
